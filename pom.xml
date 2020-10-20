@@ -31,17 +31,17 @@
 		</dependency>
 
 
-<!--		<dependency>-->
-<!--			<groupId>com.solace.spring.boot</groupId>-->
-<!--			<artifactId>solace-jms-spring-boot-starter</artifactId>-->
-<!--			<version>4.1.0</version>-->
-<!--		</dependency>-->
-
-
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-activemq</artifactId>
+			<groupId>com.solace.spring.boot</groupId>
+			<artifactId>solace-jms-spring-boot-starter</artifactId>
+			<version>4.1.0</version>
 		</dependency>
+
+
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-activemq</artifactId>-->
+<!--		</dependency>-->
 
 
 		<dependency>
