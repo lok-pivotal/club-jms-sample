@@ -1,0 +1,28 @@
+#custom properties for topic or queue
+club:
+  jms:
+    queue:
+      sub: queue1
+    topic:
+      pub: topic1
+
+
+#solace spring boot starter properties
+
+solace:
+  jms:
+    host: host
+    msgVpn: vpn
+    clientUsername: username
+    clientPassword: password
+
+
+spring:
+  jms:
+    pub-sub-domain: true
+
+#  activemq spring boot starter properties
+#  activemq:
+#    broker-url: tcp://127.0.0.1:61616
+#    user: admin
+#    password: admin

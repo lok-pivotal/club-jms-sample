@@ -11,8 +11,8 @@
 	<groupId>eda.club</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>demo-club-jms</name>
+	<description>Sample project for Spring Boot with JMS</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -30,10 +30,17 @@
 			<optional>true</optional>
 		</dependency>
 
+
+<!--		<dependency>-->
+<!--			<groupId>com.solace.spring.boot</groupId>-->
+<!--			<artifactId>solace-jms-spring-boot-starter</artifactId>-->
+<!--			<version>4.1.0</version>-->
+<!--		</dependency>-->
+
+
 		<dependency>
-			<groupId>com.solace.spring.boot</groupId>
-			<artifactId>solace-jms-spring-boot-starter</artifactId>
-			<version>4.1.0</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-activemq</artifactId>
 		</dependency>
 
 
